@@ -107,7 +107,7 @@ jobs:
         path: 'ansible-hub-ui'
 
     - name: "Install node 14"
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '14'
 
